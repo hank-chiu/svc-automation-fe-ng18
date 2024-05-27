@@ -2,7 +2,11 @@
   "name": "@svc-automation-fe/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve home",
+    "build": "nx build home",
+    "test": "nx test home"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.0.0",
