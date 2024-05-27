@@ -8,6 +8,9 @@
     "test": "nx test home"
   },
   "private": true,
+  "engines": {
+    "node": "^20.13.1"
+  },
   "dependencies": {
     "@angular/animations": "~18.0.0",
     "@angular/common": "~18.0.0",
