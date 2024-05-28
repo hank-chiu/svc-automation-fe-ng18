@@ -5,7 +5,9 @@
   "scripts": {
     "start": "nx serve home",
     "build": "nx build home",
-    "test": "nx test home"
+    "test": "nx test home",
+    "generate:page": "nx generate @nx/angular:component --directory apps/home/src/pages",
+    "generate:ui": "nx generate @nx/angular:component --directory apps/home/src/shared/ui"
   },
   "private": true,
   "engines": {
